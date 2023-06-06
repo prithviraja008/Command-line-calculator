@@ -185,6 +185,7 @@ jmp_buf env;
 void
 reset(int pargc, char** pargv)
 {
+    /*okay*/
     argc = pargc;
     argv = pargv;
     buffer[0] = 0;
